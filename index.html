@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency exchange</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="head">
+     <div class="header">
+          
+        <header>
+        <h1>Currency Coverter</h1>
+            <p>amount</p>
+             <input type="number" id="amount" placeholder="0" step=".0001" />
+             </header>
+       
+        <div class="container">
+          <div class="convert"></div>
+          <form action="">
+           <br>
+              <div class="currencies">
+               <div id="currency_1">
+                  <img src="https://www.countryflags.io/us/flat/64.png" alt="flag">
+         <select name="" id="local_currency">
+         <option value="USD">USD / Dollar</option>
+          </select>
+         </div>
+        
+                <br>
+                <div id="currency_2">
+                  <img src="https://www.countryflags.io/ru/flat/64.png" alt="flag">
+                  <select name="" id="foreign_currency">
+                    <option value="RUB">RUB / Ruble</option>
+                  </select>
+                </div>
+        
+                <input type="submit" value="Convert" />
+              </div>
+          </form>
+        
+          <div id="results"></div>
+         
+        </div>
+        </div>
+            </div>
+          
+            
+</body>
+</html>
